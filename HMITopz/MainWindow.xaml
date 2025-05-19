@@ -1,0 +1,14 @@
+﻿<Window x:Class="HMIDTopz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Mimic Optimizer" Height="200" Width="400">
+    <Grid>
+        <Button Name="LoadButton" Content="Load File" HorizontalAlignment="Left" Margin="225,39,0,0" VerticalAlignment="Top" Width="65" Click="LoadButton_Click"/>
+        <Button Name="SaveButton" Content="Optimizer" HorizontalAlignment="Left" Margin="225,0,0,0" VerticalAlignment="Center" Width="65" Click="SaveButton_Click"/>
+        <TextBox x:Name="LoadPath" HorizontalAlignment="Left" Margin="40,39,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="160"/>
+        <TextBox x:Name="Name" HorizontalAlignment="Left" Margin="40,0,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Center" Width="160" TextChanged="Name_TextChanged" FontFamily="Alstom Light"/>
+        <Label x:Name="AlstomLogo" Content="ABCD" HorizontalAlignment="Left" Margin="280,6,0,0" VerticalAlignment="Top" FontSize="22" Width="110" FontFamily="Alstom Logo"/>
+        <Label x:Name="Status" Content=" " HorizontalAlignment="Left" Margin="10,150,0,0" VerticalAlignment="Top" FontSize="12" Width="280" FontFamily="Alstom Light"/>
+
+    </Grid>
+</Window>
